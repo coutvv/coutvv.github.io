@@ -1,0 +1,46 @@
+<style>
+  .motto {
+    font-size: 15px;
+    color: #828282;
+    position:absolute;
+    top:36px;
+  }
+  .site-header-mod {
+      border-top: 0px solid #424242;
+      height: 65px;
+  }
+  .site-nav-mod {
+    line-height: 65px;
+  }
+
+</style>
+
+<header class="site-header site-header-mod " role="banner">
+
+  <div class="wrapper">
+    {% assign default_paths = site.pages | map: "path" %}
+    {% assign page_paths = site.header_pages | default: default_paths %}
+    <div class="logo">
+      <a class="site-title" href="{{ "/" | relative_url }}">Lomovtsev R</a>
+      <div class="motto">
+        <p>{{ site.description | escape }}</p>
+      </div>
+    </div>
+
+    <div class="my-stupid-class" ></div>
+    {% if page_paths %}
+      <nav class="site-nav site-nav-mod">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+
+        <div class="trigger">
+          {% for path in page_paths %}
+            {% assign my_page = site.pages | where: "path", path | first %}
+            {% if my_page.title %}
+            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </nav>
+    {% endif %}
+  </div>
+</header>
