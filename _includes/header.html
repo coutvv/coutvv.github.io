@@ -18,10 +18,10 @@
 <header class="site-header site-header-mod " role="banner">
 
   <div class="wrapper">
-    {% assign default_paths = site.pages | map: "path" %}
+    {% assign default_paths = site.pages | sort:"order" | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     <div class="logo">
-      <a class="site-title" href="{{ "/" | relative_url }}">Lomovtsev R</a>
+      <a class="site-title" href="{{ "/" | relative_url }}">Lomovtsev Roman</a>
       <div class="motto">
         <p>{{ site.description | escape }}</p>
       </div>

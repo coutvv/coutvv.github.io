@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article class="post">
+    {% unless page.hideheader %}
+      <header class="post-header">
+        <h1 class="post-title">{{ page.title | escape }}</h1>
+      </header>
+    {% endunless %}
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

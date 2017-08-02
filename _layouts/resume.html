@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<style>
+    .left_panel {
+        float: left; 
+        width: 30%; 
+        height: 100%; 
+        text-align: center;
+    }
+    .content-mod {
+        float: left;
+        width: 70%;
+    }
+    .ava {
+        max-width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+</style>
+<script src="https://use.fontawesome.com/d51c7c2e4a.js"></script>
+<article class="post">
+
+  <div class="left_panel">
+      <img class="ava" src="/resources/about/photo.jpg" alt="non of it">
+      <p>
+        <strong><a href="http://coutvv.ru">coutvv.ru</a></strong>
+      </p>
+      coutvv@gmail.com<br>
+      <p>
+          <a href="http://github.com/coutvv"><i class="fa fa-github"></i>&nbsp;github</a>
+          <a href="http://twitter.com/alzuask"><i class="fa fa-twitter"></i>&nbsp;twitter</a>
+      </p>  
+  </div>
+  <div class="post-content content-mod">
+    {{ content }}
+  </div>
+
+</article>
