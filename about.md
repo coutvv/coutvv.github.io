@@ -10,7 +10,7 @@ hideheader: true
 
 + **Computer Science**  
 ##### Kazan Federal University @ Kazan, RU 2010 to 2015  
-**Thesis**: Architecture optimization of Rest-infrasturture
+**Thesis**: Optimization of the rest-service architecture
 + **[Spring Framework Course]({{ site.url }}/resources/spring.pdf)**  
 ##### Softline Education @ Kazan, RU 2016
 
