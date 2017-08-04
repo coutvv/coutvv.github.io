@@ -1,0 +1,75 @@
+---
+layout: default
+title: Blog
+paginate: true
+blog: true
+order: 2
+---
+
+<style>
+  .post-preview {
+    font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #111;
+    background-color: #fdfdfd;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+  }
+
+  .post-icon {
+    float: right;
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+</style>
+<div class="home">
+  <ul class="post-list">
+    {% assign posts = paginator.posts | where: "layout", "post"  %}
+    {% for post in posts %}
+          <li>
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+          
+            <h2>
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h2>
+            <div class="post-preview">
+              {% if post.picture %}
+                <img src="{{ site.url }}{{ post.picture }}" class="post-icon">
+              {% endif %}
+              {{ post.preview | escape }}
+            </div>
+
+          </li>
+    {% endfor %}
+  </ul>
+
+</div>
+
+<!-- Pagination links -->
+<div class="pagination">
+    <div style="float: left; width: 20%;">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">&lt;&lt;</a>
+      {% else %}
+        <span class="previous">&nbsp;</span>
+      {% endif %}
+    </div>
+
+    <div style="float: left; width: calc(60% - 13px); text-align: center;">
+        <span class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    </div>
+
+    <div style="float: right; width: 20%; text-align: right;">
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">&gt;&gt;</a>
+      {% else %}
+        <span class="next ">&nbsp;</span>
+      {% endif %}
+    </div>
+
+</div>

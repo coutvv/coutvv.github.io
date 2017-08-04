@@ -25,10 +25,14 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 markdown: kramdown
 theme: minima
+pagination: 
+  collection: 'posts'
+paginate: 5
+paginate_path: "/blog/page:num"
 plugins:
   - jekyll-feed
-paginate: 5
-paginate_path: "/blog/page:num/"
+  - jekyll-paginate
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
