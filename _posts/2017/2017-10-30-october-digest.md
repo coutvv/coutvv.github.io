@@ -5,6 +5,7 @@ date:       2017-10-30 10:01:23 +0300
 categories: lifelog
 preview:    "Не, все. Не могу! Слишком сложно писать на английском, когда переполнен эмоциями и хочешь сказать много и сразу, но рамки знания языка не позволяют это сделать. Посему вернемся на время в эту раскладку"
 picture: /images/2017/10/digest-head.JPG
+previewPicture: /images/2017/10/digest-head-min.jpg
 ---
 
 ![pic]({{ site.url }}{{ page.picture }}){: .center-image }

@@ -39,8 +39,12 @@ order: 2
               <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             </h2>
             <div class="post-preview">
-              {% if post.picture %}
+              {% if post.previewPicture %}
+                <img src="{{ site.url }}{{ post.previewPicture }}" class="post-icon">
+              {% else %}
+                {% if post.picture %}
                 <img src="{{ site.url }}{{ post.picture }}" class="post-icon">
+                {% endif %}
               {% endif %}
               {{ post.preview | escape }}
             </div>
