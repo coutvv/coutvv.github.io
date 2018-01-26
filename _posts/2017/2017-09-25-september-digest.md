@@ -4,10 +4,10 @@ title:  "September digest"
 date:   2017-09-25 11:00:13 +0300
 categories: lifelog
 preview: "September digest is sooooo short. Habrahabr invite, angular invade, some apple's things, and stoic philosophy. Ahm... 13th of september was Apple event and after that iOS 11 released with augment reality feature -- it's funny, yeah.  "
-picture: /resources/september.jpg
+postPicture: /resources/september.jpg
 ---
 
-![pic]({{ site.url }}{{ page.picture }}){: .center-image }
+![pic]({{ site.url }}{{ page.postPicture }}){: .center-image }
 
 
 Well well well... This month was a little strange. I translate and public on habrahabr.ru ( and as result -- get invite there ) half of [this](https://joshondesign.com/2017/08/18/idealos_essay) article. And after some time another user posted whole article and I lost motivation to translate another half.

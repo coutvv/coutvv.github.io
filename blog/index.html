@@ -17,13 +17,18 @@ order: 2
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    /*text-align: justify;*/
   }
 
   .post-icon {
-    float: right;
-    max-width: 100px;
-    max-height: 100px;
-    padding-left: 5px;
+    float: left;
+    width: 92px;
+    height: 92px;
+    padding-right: 15px;
+    object-fit: cover;
+  }
+  .header-post {
+    margin-bottom: 0.2em;
   }
 
 </style>
@@ -35,7 +40,7 @@ order: 2
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
             <span class="post-meta">{{ post.date | date: date_format }}</span>
           
-            <h2>
+            <h2 class="header-post">
               <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             </h2>
             <div class="post-preview">

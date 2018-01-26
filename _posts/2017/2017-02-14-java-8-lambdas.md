@@ -3,7 +3,9 @@ layout: post
 title:  "Java 8: λambdas"
 date:   2017-02-14 00:00:00 +0300
 categories: lifelog
-preview: "TRAHIT SUA QUEMQUE VOLUPTAS! Скоро Java 9 релизят, а Я ещё к 8ой не притрагивался(на самом деле притрагивался, но до победного понимания так и не дошёл). Особенно с лямбдами вечно хожу по кругу."
+preview: "TRAHIT SUA QUEMQUE VOLUPTAS! Скоро Java 9 релизят, а Я ещё к 8ой не притрагивался(на самом деле притрагивался, но до победного понимания так и не дошёл). Особенно с лямбдами вечно хожу по кругу.
+Поэтому в этом посте попытаюсь с ними разобраться.
+"
 picture: /resources/posts/java8lambdas.jpg
 ---
 ![]({{ site.url }}{{ page.picture }}){: .right-image }

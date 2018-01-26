@@ -4,11 +4,10 @@ title:      "Not november digest"
 date:       2017-12-12 22:50:23 +0300
 categories: lifelog
 preview:    "Okay this blog is returning to English way due to my decision to improve language by hiring a tutor. I hope it will be forever. English blog post – not learning English! :D It's too late for november digest but I need to post something and that's my shot. "
-picture: /images/2017/12/digest.jpg
-previewPicture: /images/2017/12/digest-min.jpg
+postPicture: /images/2017/12/digest.jpg
 ---
 
-![pic]({{ site.url }}{{ page.picture }}){: .center-image }
+![pic]({{ site.url }}{{ page.postPicture }}){: .center-image }
 
 Hate november. It's too stupid time when snow interwoven with rain. But this year it was not true. End of november was very dry and without anything sign of snow. And it was worse. I like winter and its attribute like snow, even if it mixed with dirt, would be doing this end of fall more kindness than just nude streets.
 

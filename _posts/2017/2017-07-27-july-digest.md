@@ -4,10 +4,10 @@ title:  "July digest"
 date:   2017-07-27 13:21:13 +0300
 categories: lifelog
 preview: "Прямо таки вымучиваю сей текст из себя. Досада от одной неудачи стопорит общее движение вперёд. А стоит быть попрофессиональнее."
-picture: /resources/july_digest.png
+insidePicture: /resources/july_digest.png
 ---
 
-![replace fundamentals code]({{ site.url }}{{ page.picture }}){: .center-image }
+![replace fundamentals code]({{ site.url }}{{ page.insidePicture }}){: .center-image }
 
 Прямо таки вымучиваю сей текст из себя. Досада от одной неудачи стопорит общее движение вперёд. А стоит быть попрофессиональнее.
 

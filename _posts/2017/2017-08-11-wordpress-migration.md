@@ -4,10 +4,10 @@ title:  "Wordpress Migration"
 date:   2017-08-11 10:21:13 +0300
 categories: lifelog
 preview: "Сей блог переезжает на бесплатный статический хостинг Github Pages"
-picture: /resources/posts/wordpress_migration.jpg
+postPicture: /resources/posts/wordpress_migration.jpg
 ---
 
-![replace fundamentals code]({{ site.url }}{{ page.picture }}){: .center-image }
+![replace fundamentals code]({{ site.url }}{{ page.postPicture }}){: .center-image }
 
 Сей блог переезжает на бесплатный статический хостинг [Github Pages][coutvv].
 
