@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      "Digest of the 05 week"
+title:      "Digest of the week #05"
 date:       2018-02-04 23:10:42 +0300
 categories: lifelog
-preview:    "The most important, new and interesting things of the week. Plans for the next one.<br>
-Android development, historical streaming, contrast shower and searching of music."
+preview:    "The most important, new and interesting things this week. 
+<u>Android development, historical streaming, contrast shower and searching of music.</u>"
 postPicture: /images/2018/02/gamedev_book.jpg
 ---
 <style>.little-book { max-height: 180px; } </style>
