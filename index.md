@@ -20,8 +20,10 @@ blog: false
 ##### Development of infrastructure for functional/integration tests 
 + **[TatASU][tatasu-link]**: Almetyevsk, RU  ---  September 2015 to April 2016  
 ##### Development of educational system for specialists of Oil industry
-+ **[TatASU][tatasu-link]**: Kazan, RU ---  April 2016 to present  
++ **[TatASU][tatasu-link]**: Kazan, RU ---  April 2016 to March 2018  
 ##### Development of systems for visualization of geological models
++ **Subbatical**: Kazan, RU --- March 2018 to Present
+##### Just take time and get activity to very important things on my opinion. 
 
 ### Skills
 

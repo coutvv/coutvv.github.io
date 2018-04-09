@@ -20,6 +20,10 @@ order: 2
     /*text-align: justify;*/
   }
 
+  .location-meta { 
+    float: right;
+  }
+
   .post-icon {
     float: left;
     width: 92px;
@@ -27,9 +31,11 @@ order: 2
     padding-right: 15px;
     object-fit: cover;
   }
+
   .header-post {
     margin-bottom: 0.2em;
   }
+
 
 </style>
 <div class="home">
@@ -38,8 +44,10 @@ order: 2
     {% for post in posts %}
           <li>
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-          
+            <span class="post-meta post-meta-data">{{ post.date | date: date_format }}</span>
+            {% if post.location %}
+            <span class="post-meta">{{ post.location}} </span>
+            {% endif %}
             <h2 class="header-post">
               <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             </h2>
