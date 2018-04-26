@@ -35,4 +35,4 @@ blog: false
 
 + Guitar, Cycle, Running
 
-[tatasu-link]: http://www.tatintec.ru/asu
+[tatasu-link]: http://www.tatintec.ru/index.php?id=176
