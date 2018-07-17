@@ -1,0 +1,81 @@
+.social-network {
+    float: right;
+    margin-top: 10px;
+    padding-right: 4px;
+    width: calc(100% - 245px);
+}
+
+.social-network > a {
+    float: right;
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: url(/resources/social.png) no-repeat;
+    background-size: 800%;
+}
+
+.icon-twitter {
+    background-position: -51px 2px;
+}
+
+.icon-facebook {
+    background-position: 4px 2px;
+}
+
+.icon-insta {
+    background-position: -103px 2px;
+}
+
+.icon-linkedin {
+    background-position: 1px -80px;
+}
+
+.icon-youtube {
+    background-position: -50px -36px;
+}
+
+.icon-telegram {
+}
+
+.icon-stack {
+    background-position: -51px -80px;
+}
+
+.icon-github {
+    background-position: 1px -36px;
+}
+
+// next search styles
+
+.search-button {
+    display: none;
+    float: right;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.logo-container {
+    float: left;
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .wrapper.topper {
+      padding-left: 0;
+      padding-right: 0;
+    } 
+}
+@media screen and (max-width: 350px) {
+    .search-button {
+        display: block;
+    }
+    .search-string {
+        display: none;
+    }
+}
+
+label.hide-submit > input[type="submit"] { display: none;}

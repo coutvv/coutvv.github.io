@@ -1,28 +1,19 @@
 <style>
-  .motto {
-    font-size: 15px;
-    color: #828282;
-    position:absolute;
-    top:36px;
-  }
-  .site-header-mod {
-      border-top: 0px solid #424242;
-      height: 65px;
-  }
-  .site-nav-mod {
-    line-height: 65px;
-  }
+  
 
   @media screen and (max-width: 600px) {
     .align-butterbrod {
       margin-top: 6px;
     }
   }
+
+
+  
 </style>
 
 <header class="site-header site-header-mod " role="banner">
 
-  <div class="wrapper">
+  <div class="wrapper topper">
     {% assign default_paths = site.pages | sort:"order" | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     <div class="logo">
@@ -32,33 +23,85 @@
       </div>
     </div>
 
-    <div class="my-stupid-class" ></div>
+    <div class="social-network" >
+      <div class="logo-container">
+          <svg width="25px" height="27px" viewBox="0 0 25 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+            <desc>Created with Sketch.</desc>
+            <defs></defs>
+            <g id="Blog-Contrast-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="Mobile" transform="translate(-283.000000, -12.000000)" stroke="#424242" fill="#424242">
+                    <g id="Header" transform="translate(10.000000, 6.000000)">
+                        <g id="logo" transform="translate(274.000000, 7.000000)">
+                            <path d="M9.67481492,7.64506112 L0,7.93507886 L2.58790341,10.381158 L8.4967185,10.381158 C8.11041588,11.2094102 7.73130038,11.9519092 7.35937198,12.6086548 C6.01735607,14.9783664 3.56423208,18.3588148 0,22.75 C3.91483398,19.222073 6.70271277,16.3817626 8.36363636,14.2290687 C9.11445513,13.2559456 9.9822036,11.9733088 10.9668818,10.381158 L18.0827146,10.381158 L13.4185717,21.8294741 L10.5123071,20.2496934 L14.3813874,26 L14.7713547,24.2884577 L23,5.41666667 L19.9609448,7.33671825 L12.6500669,7.55587328 C13.4008851,6.25456223 14.2052065,4.81162767 15.0630311,3.22706961 L16.7272727,2.75508584 L9.59966844,0 L11.6661391,2.15010583 C10.9837292,4.20410456 10.3199544,6.03575632 9.67481492,7.64506112 Z" id="Combined-Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+          </svg>
+      </div>
+      
+      <a href="https://github.com/coutvv">
+        <i class="icon icon-github"></i>
+      </a>
+      <a href="https://github.com/coutvv">
+        <i class="icon icon-stack"></i>
+      </a>
+      <a href="https://github.com/coutvv">
+        <i class="icon icon-linkedin"></i>
+      </a>
+      <a href="https://twitter.com/alzuask">
+        <i class="icon icon-twitter"></i>
+      </a>
+      <a href="https://github.com/coutvv">
+        <i class="icon icon-youtube"></i>
+      </a>
+      <a href="https://twitter.com/alzuask">
+        <i class="icon icon-insta"></i>
+      </a>
+    </div>
+    
+  </div>
+  <div class="action-bar wrapper">
     {% if page_paths %}
-      <nav class="site-nav site-nav-mod align-butterbrod">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
-
-        <div class="trigger">
-          <!-- {% for path in page_paths %}
-            {% assign my_page = site.pages | where: "path", path | first %}
-            {% unless my_page.blog %}
-              {% if my_page.title %}
-              <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-              {% endif %}
-            {% endunless %}
-          {% endfor %} -->
-          <a class="page-link" href="{{site.url}}/blog/wishlist">Wishlist</a>
-          <a class="page-link" href="{{site.url}}/blog">Blog</a>
-        </div>
-      </nav>
+      <div class="site-nav-mod">
+        
+        <a class="page-link" href="{{site.url}}/blog">Blog</a>
+        <a class="page-link" href="{{site.url}}/blog/wishlist">Wishlist</a>
+        <a class="page-link" href="{{site.url}}/">About</a>
+        
+        
+        
+      </div>
     {% endif %}
+    <div class="search-field">
+      
+      <!-- <input type="checkbox" id="nav-trigger" class="nav-trigger" /> -->
+      <div class="trigger">
+        <!-- <input placeholder="Search..."></input> -->
+        <form action="https://google.com/search" method="get">
+          <input type="hidden" name="sitesearch" value="http://coutvv.github.io" />
+          <input type="text" name="q" placeholder="Search..." class="search-string"/>
+          <label class="search-button hide-submit">
+              <input type="submit" />
+              <svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+                <desc>Created with Sketch.</desc>
+                <defs></defs>
+                <g id="Blog-Contrast-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Mobile" transform="translate(-285.000000, -58.000000)" stroke="#FDFDFD" stroke-width="2">
+                        <g id="Header" transform="translate(10.000000, 6.000000)">
+                            <g id="Navigation" transform="translate(0.000000, 44.000000)">
+                                <path d="M285,21 C281.686292,21 279,18.3137085 279,15 C279,11.6862915 281.686292,9 285,9 C288.313708,9 291,11.6862915 291,15 C291,18.3137085 288.313708,21 285,21 Z M280.5,19.5 L275.972307,24.0276926 L280.5,19.5 Z" id="Combined-Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+              </svg>
+          </label>
+        </form>
+          
+      </div>
+    </div>
   </div>
 </header>
