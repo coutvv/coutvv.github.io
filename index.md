@@ -6,33 +6,18 @@ layout: resume
 title: Lomovtsev Roman
 blog: false
 ---
-### Education
 
-+ **Computer Science**  
-##### Kazan Federal University @ Kazan, RU 2010 to 2015  
-**Thesis**: Optimization of the rest-service architecture
-+ **[Spring Framework Course]({{ site.url }}/resources/spring.pdf)**  
-##### Softline Education @ Kazan, RU 2016
+Hi! This is web-spot where I post my boring, crazy and stupid ideas and things.
 
-### Employment
+<img src="/resources/posts/BetrayalOS2.jpg" alt="" class="center-image">
 
-+ **[TatASU][tatasu-link]**: Kazan, RU --- April 2013 to April 2015  
-##### Development of infrastructure for functional/integration tests 
-+ **[TatASU][tatasu-link]**: Almetyevsk, RU  ---  September 2015 to April 2016  
-##### Development of educational system for specialists of Oil industry
-+ **[TatASU][tatasu-link]**: Kazan, RU ---  April 2016 to March 2018  
-##### Development of systems for visualization of geological models
-+ **Subbatical**: Kazan, RU --- March 2018 to Present
-##### Just take time and get activity to very important things on my opinion. 
 
-### Skills
 
-+ <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i> &nbsp;&nbsp; **Java & Spring**
-+ <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i> &nbsp;&nbsp; **AngularJS & Linux**
-+ <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i> &nbsp;&nbsp; **jQuery & SQL**
+I am ordinary, modest and a little enlightenment Software Developer who lives in Kazan, Russian Federation. I code for Java Platform and web(js/html/css/obsolescent_frameworks).
 
-### Hobbies
 
-+ Guitar, Cycle, Running
+My hobby is playing Guitar, cycling, archery and other cool stuff. 
 
-[tatasu-link]: http://www.tatintec.ru/index.php?id=176
+Also I just learn English and if you have found any error please let me know via twitter or email!
+
+<img src="/resources/about/yuno_dark_correct_2.png" class="center-image" style="position: relative; top: 16px; z-index:-1;">

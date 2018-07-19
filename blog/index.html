@@ -67,27 +67,3 @@ order: 2
   </ul>
 
 </div>
-
-<!-- Pagination links -->
-<div class="pagination">
-    <div style="float: left; width: 20%;">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="previous">&lt;&lt;</a>
-      {% else %}
-        <span class="previous">&nbsp;</span>
-      {% endif %}
-    </div>
-
-    <div style="float: left; width: calc(60% - 13px); text-align: center;">
-        <span class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    </div>
-
-    <div style="float: right; width: 20%; text-align: right;">
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="next">&gt;&gt;</a>
-      {% else %}
-        <span class="next ">&nbsp;</span>
-      {% endif %}
-    </div>
-
-</div>

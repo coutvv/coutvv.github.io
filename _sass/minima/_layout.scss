@@ -8,7 +8,11 @@
 
   // Positioning context for the mobile navigation icon
   position: relative;
-}
+
+  .action-bar {
+
+  }
+} 
 
 .site-title {
   @include relative-font-size(1.625);
@@ -178,6 +182,7 @@
 .page-content {
   padding: $spacing-unit 0;
   flex: 1 0 auto;
+  padding-bottom: 0;
 }
 
 .page-heading {
@@ -253,3 +258,20 @@
     }
   }
 }
+
+.pagination {
+  position: relative;
+  top: 3px;
+  color: white;
+  margin: 0 5px;
+  font-size: 12pt;
+  font-weight: 100;
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+  .previous {
+    float: left;
+  }
+}
+

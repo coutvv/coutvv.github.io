@@ -1,55 +1,71 @@
 <style>
   .site-footer-mod {
-    padding: 10px 0;
+    text-align: center;
+    font-size: 15pt;
+    padding: 0;
+    height: 82px;
+    border: none;
+
+    font-weight: 400;
+    letter-spacing: -0.1px;
+  }
+
+  .footer-motto {
+    color: #828282;
+    position: relative;
+    top: 6px;
+  }
+  .footer-copyright {
+    color: #222;
   }
 </style>
 
 <footer class="site-footer site-footer-mod ">
+  <div class="wrapper site-footer-mod ">
 
-  <div class="wrapper">
-<!-- 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
+    <div class="action-bar">
+      {% if page.url == "/" %}
+        <div class="">
+            <i class="icon icon-bottom-logo"></i>
+        </div>
+      {% endif %}
 
+      {% if page.url contains "/blog/" %}
+        <!-- Pagination links -->
+        <div class="pagination">
+            <div style="float: left; width: 20%;">
+              {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path }}" class="previous">&lt;&lt;</a>
+              {% else %}
+                <span class="previous">&nbsp;</span>
+              {% endif %}
+            </div>
+
+            <div style="float: left; width: calc(60% - 13px); text-align: center;">
+                <span class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+            </div>
+
+            <div style="float: right; width: 20%; text-align: right;">
+              {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path }}" class="next">&gt;&gt;</a>
+              {% else %}
+                <span class="next ">&nbsp;</span>
+              {% endif %}
+            </div>
+
+        </div>
+      {% endif %}
+
+    </div>
     <div class="footer-col-wrapper">
-      <div style="text-align:center;">
-        coutvv
+      <div class="footer-motto">
+        In any kind of unclear situation – think!
       </div>
-      <!-- <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
-      </div> -->
-
-      <!-- <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div> -->
-
-      <!-- <div class="footer-col footer-col-3">
-        <p style="float:right;">{{ site.description | escape }}</p>
-      </div> -->
+      <div class="footer-copyright">
+        lomovtsev.me @ 2018
+      </div>
     </div>
 
   </div>
-
+  
 </footer>
