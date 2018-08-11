@@ -5,64 +5,50 @@ paginate: true
 blog: true
 order: 2
 ---
-
 <style>
-  .post-preview {
-    font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #111;
-    background-color: #fdfdfd;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
-    -moz-font-feature-settings: "kern" 1;
-    -o-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
-    font-kerning: normal;
-    /*text-align: justify;*/
-  }
 
-  .location-meta { 
+  .post-meta {
+    padding: 2px 5px;
+    color: white;
+    background: #222;
     float: right;
+    min-width: 95px;
+    text-align: center;
   }
-
-  .post-icon {
-    float: left;
-    width: 92px;
-    height: 92px;
-    padding-right: 15px;
-    object-fit: cover;
-  }
-
-  .header-post {
-    margin-bottom: 0.2em;
-  }
-
-
 </style>
 <div class="home">
   <ul class="post-list">
     {% assign posts = paginator.posts | where: "layout", "post"  %}
     {% for post in posts %}
-          <li>
-            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            <span class="post-meta post-meta-data">{{ post.date | date: date_format }}</span>
-            {% if post.location %}
-            <span class="post-meta">{{ post.location}} </span>
-            {% endif %}
-            <h2 class="header-post">
-              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            </h2>
-            <div class="post-preview">
-              {% if post.previewPicture %}
-                <img src="{{ site.url }}{{ post.previewPicture }}" class="post-icon">
-              {% else %}
-                {% if post.picture %}
-                <img src="{{ site.url }}{{ post.picture }}" class="post-icon">
+        <li>
+          <div class="post-preview">
+            <a href="{{ post.url | relative_url }}">
+              <div class="preview-full-container">
+                {% if post.previewPicture %}
+                  <img src="{{ site.url }}{{ post.previewPicture }}" class="post-icon">
+                {% else %}
+                  {% if post.picture %}
+                    <img src="{{ site.url }}{{ post.picture }}" class="post-icon">
+                  {% else %}
+                    <img src="/resources/default_post_inv.jpg" class="post-icon">
+                  {% endif %}
                 {% endif %}
-              {% endif %}
-              {{ post.preview }}
+              </div>
+              <h2 class="header-post">
+                <div class="post-link">{{ post.title | escape }}</div>
+              </h2>
+            </a>
+            <div class="post-preview-text">
+              <p>{{ post.preview }}</p>
             </div>
+          </div>
 
-          </li>
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          <span class="post-meta post-meta-data">{{ post.date | date: date_format }}</span>
+          {% if post.location %}
+          <span class="post-meta">{{ post.location}} </span>
+          {% endif %}
+        </li>
     {% endfor %}
   </ul>
 

@@ -106,7 +106,14 @@ a.site-title {
 
 .search-field {
   float: right;
-  margin-top: 6px;
+  margin-top: 5px;
   line-height: normal;
-  margin-right: 6px; 
+  margin-right: 5px; 
+}
+
+@media screen and (max-width: 350px) {
+  .search-field {
+    margin-right: 7px;
+    margin-top: 6px;
+  }
 }

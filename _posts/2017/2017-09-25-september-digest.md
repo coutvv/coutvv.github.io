@@ -5,6 +5,7 @@ date:   2017-09-25 11:00:13 +0300
 categories: lifelog
 preview: "September digest is sooooo short. Habrahabr invite, angular invade, some apple's things, and stoic philosophy. Ahm... 13th of september was Apple event and after that iOS 11 released with augment reality feature -- it's funny, yeah.  "
 postPicture: /resources/september.jpg
+picture: /resources/september.jpg
 ---
 
 ![pic]({{ site.url }}{{ page.postPicture }}){: .center-image }

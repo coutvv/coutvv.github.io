@@ -5,6 +5,7 @@ date:       2017-12-12 22:50:23 +0300
 categories: lifelog
 preview:    "Okay this blog is returning to English way due to my decision to improve language by hiring a tutor. I hope it will be forever. English blog post – not learning English! :D It's too late for november digest but I need to post something and that's my shot. "
 postPicture: /images/2017/12/digest.jpg
+picture: /images/2017/12/digest.jpg
 ---
 
 ![pic]({{ site.url }}{{ page.postPicture }}){: .center-image }

@@ -6,7 +6,8 @@
     .center-image {
       display: block;
       margin-left: auto;
-      margin-right: auto
+      margin-right: auto;
+      margin-bottom: 10px;
     }
 
     .left-image {
@@ -38,6 +39,9 @@
   </style>
   <body>
     {% include header.html %}
+    {% if page.blog %}
+        <style>.page-content {padding-top: 0;}</style>
+    {% endif %}
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">

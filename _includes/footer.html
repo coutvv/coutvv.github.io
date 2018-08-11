@@ -24,35 +24,40 @@
   <div class="wrapper site-footer-mod ">
 
     <div class="action-bar">
-      {% if page.url == "/" %}
+      {% if page.url contains "/blog/"  %}
+        {% unless page.url contains "wishlist" %}
+          <!-- Pagination links -->
+          <div class="pagination">
+              <div style="float: left; width: 20%;">
+                {% if paginator.previous_page %}
+                  <a href="{{ paginator.previous_page_path }}" class="previous">&lt;&lt;</a>
+                {% else %}
+                  <span class="previous">&nbsp;</span>
+                {% endif %}
+              </div>
+
+              <div style="float: left; width: calc(60% - 13px); text-align: center;">
+                  <span class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+              </div>
+
+              <div style="float: right; width: 20%; text-align: right;">
+                {% if paginator.next_page %}
+                  <a href="{{ paginator.next_page_path }}" class="next">&gt;&gt;</a>
+                {% else %}
+                  <span class="next ">&nbsp;</span>
+                {% endif %}
+              </div>
+
+          </div>
+          {% else %}
+          <div class="">
+              <i class="icon icon-bottom-logo" style="background-position: -105px -81px;margin: auto;"></i>
+          </div>
+          {% endunless %}
+      {% else %}
+        
         <div class="">
-            <i class="icon icon-bottom-logo"></i>
-        </div>
-      {% endif %}
-
-      {% if page.url contains "/blog/" %}
-        <!-- Pagination links -->
-        <div class="pagination">
-            <div style="float: left; width: 20%;">
-              {% if paginator.previous_page %}
-                <a href="{{ paginator.previous_page_path }}" class="previous">&lt;&lt;</a>
-              {% else %}
-                <span class="previous">&nbsp;</span>
-              {% endif %}
-            </div>
-
-            <div style="float: left; width: calc(60% - 13px); text-align: center;">
-                <span class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-            </div>
-
-            <div style="float: right; width: 20%; text-align: right;">
-              {% if paginator.next_page %}
-                <a href="{{ paginator.next_page_path }}" class="next">&gt;&gt;</a>
-              {% else %}
-                <span class="next ">&nbsp;</span>
-              {% endif %}
-            </div>
-
+            <i class="icon icon-bottom-logo" style="background-position: -105px -81px;margin: auto;"></i>
         </div>
       {% endif %}
 
