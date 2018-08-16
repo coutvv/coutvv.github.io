@@ -23,14 +23,14 @@ order: 2
         <li>
           <div class="post-preview">
             <a href="{{ post.url | relative_url }}">
-              <div class="preview-full-container">
+              <div class="preview-full-container square-box">
                 {% if post.previewPicture %}
-                  <img src="{{ site.url }}{{ post.previewPicture }}" class="post-icon">
+                  <img src="{{ site.url }}{{ post.previewPicture }}" class="post-icon square-content">
                 {% else %}
                   {% if post.picture %}
-                    <img src="{{ site.url }}{{ post.picture }}" class="post-icon">
+                    <img src="{{ site.url }}{{ post.picture }}" class="post-icon square-content">
                   {% else %}
-                    <img src="/resources/default_post_inv.jpg" class="post-icon">
+                    <img src="/resources/default_post_inv.jpg" class="post-icon square-content">
                   {% endif %}
                 {% endif %}
               </div>

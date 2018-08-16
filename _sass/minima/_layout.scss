@@ -302,7 +302,7 @@ header {
 @media screen and (max-width: 527px) {
 
   .preview-full-container {
-    width: calc(100% + 30px);
+    width: calc(100% + 30px) !important;
     margin-left: -15px;
   }
 }
@@ -441,4 +441,26 @@ a:hover.post-link {
   padding: 10px 0;
   color: white;
   background: #222;
+}
+
+.square-box{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: #4679BD;
+}
+.square-box:before{
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+.square-content{
+  position:  absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: white;
+  text-align: center;
+  height: 100%;
 }
