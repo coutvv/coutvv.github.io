@@ -2,7 +2,7 @@
     float: right;
     margin-top: 10px;
     padding-right: 4px;
-    width: calc(100% - 245px);
+    width: calc(100% - 271px);
 }
 
 .social-network > a {
@@ -79,3 +79,15 @@
 }
 
 label.hide-submit > input[type="submit"] { display: none;}
+
+input[type="text"] {
+    border: 1px solid #cccccc; 
+    border-radius: 0px; 
+    -webkit-border-radius: 0px; 
+    -moz-border-radius: 0px; 
+    -khtml-border-radius: 0px;
+    background: #ffffff !important; 
+    outline: none; 
+    font-family: Helvetica; 
+    height: 18px;
+ }
