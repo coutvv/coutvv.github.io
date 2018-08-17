@@ -80,13 +80,18 @@
 label.hide-submit > input[type="submit"] { display: none;}
 
 input[type="text"] {
-    border: 1px solid #cccccc; 
-    border-radius: 0px; 
-    -webkit-border-radius: 0px; 
-    -moz-border-radius: 0px; 
-    -khtml-border-radius: 0px;
     background: #ffffff !important; 
     outline: none; 
-    font-family: Helvetica; 
     height: 18px;
+
+	margin:0;
+	border: none;
+	padding:0 2px;
+	vertical-align:middle;
+	white-space:normal;
+	line-height:1;
+	
+	/* Browsers have different default form fonts */
+    font-size:13px;
+    font-family: Helvetica; 
  }
