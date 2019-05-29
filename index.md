@@ -5,6 +5,7 @@
 layout: resume
 title: Roman Lomovtsev
 blog: false
+yuno: true
 ---
 
 <h1 class="post-title"> Hello, World! </h1>
@@ -21,18 +22,3 @@ That's it.
 And sometimes I will be post about my hobby like playing Guitar, cycling, archery. 
 
 Also I just learn English and if you have found any error please let me know via twitter or email!
-
-<img src="/resources/about/yuno_dark_correct_2.png" class="center-image yuno">
-
-<style>
-    .yuno {
-        position: relative;
-        top: 10px;
-        width: 66%;
-        z-index: -1;
-        left: 0;
-        right: 0;
-        margin-left: auto;
-        margin-right: auto;
-    }
-</style>
