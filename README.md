@@ -6,12 +6,12 @@ Powered by jekyll
 
 Preparation:
 
-`bash
+```bash
 gem install jekyll bundler
-`
+```
 
 Run:
 
-`bash
+```bash
 bundle exec jekyll serve
-`
+```
