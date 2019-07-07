@@ -21,14 +21,14 @@ What I want to get and reach in 2018:
              
 |             | Item                                  | Note                                       |  Status        | 
 | :---:       | :---                                  | :---                                       |  :---:         | 
-| {{page.wk}} | Speech at the conf                    |                                            |  {{page.delay}} | 
-| {{page.wk}} | Java SE 8 exam                        |                                            |  {{page.delay}} | 
-| {{page.wk}} | New PL                                | Swift I suppose                            |  {{page.delay}} | 
+| {{page.wk}} | Speech at the conf                    |                                            |  {{page.fail}} | 
+| {{page.wk}} | Java SE 8 exam                        |                                            |  {{page.fail}} | 
+| {{page.wk}} | New PL                                | Swift I suppose                            |  {{page.fail}} | 
 | {{page.hp}} | Reebok sneakers                       |                                            |  {{page.delay}} | 
-| {{page.hp}} | 42 km run                             | Run 3 times a week                         |  {{page.doIt}} | 
-| {{page.hp}} | Lotus position                        | Train 2 times a day                        |  {{page.doIt}} | 
+| {{page.hp}} | 42 km run                             | Run 3 times a week                         |  {{page.fail}} | 
+| {{page.hp}} | Lotus position                        | Train 2 times a day                        |  {{page.fail}} | 
 | {{page.en}} | Travel on vacation                    |                                            |  {{page.delay}} | 
-| {{page.en}} | English listening skill               | ESL podcasts scripting                     |  {{page.doIt}} | 
+| {{page.en}} | English listening skill               | ESL podcasts scripting                     |  {{page.delay}} | 
 | {{page.en}} | 100 hours with teacher                |                                            |  {{page.delay}} | 
                                                                                                                       
 
@@ -38,19 +38,19 @@ A <del>Lannister</del> Lomovtsev always pays his debts (2016 – 2017):
 
 |             |  Item                                   |  Note                                       | Status        | 
 | ---         |  :---                                   |  :---                                       | :---:         | 
-| {{page.wk}} |  The markup course                      |  I stopped right before CSS                 | {{page.delay}} | 
+| {{page.wk}} |  The markup course                      |  I stopped right before CSS                 | {{page.fail}} | 
 | {{page.wk}} |  [Vim book](http://a.co/3xtmr1A)        |  Chapter #07                                | {{page.delay}} | 
-| {{page.wk}} |  Solving the tasks book                 |  Stopped in solving                         | {{page.delay}} | 
-| {{page.wk}} |  Contrib to OSS                         |  :\                                         | {{page.delay}} | 
-| {{page.wk}} |  Knuth magnum opus                      |  Math part                                  | {{page.delay}} | 
-| {{page.wk}} |  Macbook Debt                           |  I really do it every day!                  | {{page.doIt}} | 
-| {{page.wk}} |  Android dev                            |  Book and app at work                       | {{page.doIt}} | 
-| {{page.en}} |  English level up                       |  Train my listening                         | {{page.doIt}} | 
-| {{page.hp}} |  Half of Marathon                       |  The best result: 10 km                     | {{page.doIt}} | 
-| {{page.hb}} |  Fast writing                           |  Notes lost                                 | {{page.delay}} | 
-| {{page.hb}} |  Korean language                        |                                             | {{page.delay}} | 
+| {{page.wk}} |  Solving the tasks book                 |  Stopped in solving                         | {{page.fail}} | 
+| {{page.wk}} |  Contrib to OSS                         |  :\                                         | {{page.fail}} | 
+| {{page.wk}} |  Knuth magnum opus                      |  Math part                                  | {{page.fail}} | 
+| {{page.wk}} |  Macbook Debt                           |  I really do it every day!                  | {{page.done}} | 
+| {{page.wk}} |  Android dev                            |  Book and app at work                       | {{page.fail}} | 
+| {{page.en}} |  English level up                       |  Train my listening                         | {{page.delay}} | 
+| {{page.hp}} |  Half of Marathon                       |  The best result: 10 km                     | {{page.fail}} | 
+| {{page.hb}} |  Fast writing                           |  Notes lost                                 | {{page.fail}} | 
+| {{page.hb}} |  Korean language                        |                                             | {{page.fail}} | 
 | {{page.hb}} |  Iwasava path                           |                                             | {{page.delay}} | 
-| {{page.hb}} |  The 100 Reading challenge                  |  Read the book for 100 times                | {{page.doIt}} | 
+| {{page.hb}} |  The 100 Reading challenge                  |  Read the book for 100 times                | {{page.fail}} | 
 
 
 Well, these items are long-term plans and I suppose that I need to check and correct them from time to time...
