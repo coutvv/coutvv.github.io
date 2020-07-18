@@ -4,6 +4,10 @@ This is my blog: [coutvv.github.io](http://coutvv.github.io)
 
 Powered by jekyll
 
+Prerequirements:
+
+- Ruby 2.7 or higher
+
 Preparation:
 
 ```bash
