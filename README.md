@@ -1,11 +1,12 @@
-<img src="http://coutvv.github.io/favicon.ico" width="32px" height="32px" />
+<img src="http://coutvv.github.io/favicon.ico" width="32px" height="32px"  alt="logo"/>
 
-This is my blog: [coutvv.github.io](http://coutvv.github.io)
+This is my blog: [lomovtsev.com](http://coutvv.github.io)
 
 Powered by jekyll
 
-Prerequirements:
+## Installation
 
+Need to be installed:
 - Ruby 2.7 or higher
 
 Preparation:
