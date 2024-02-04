@@ -5,6 +5,7 @@ date:   2017-08-25 22:38:13 +0300
 categories: lifelog
 preview: "OK. Just start to talk about my life in that's language. Well, this month was'nt so english. I skipped some of my daily english podcast listening routine. But I experiment with it. I think I need more effort for essential improvement. For serials -- make out subtitles and repeat difficult moments. For podcasts -- read whole text before listening and learn unknown words."
 picture: /resources/august.jpg
+secret: true
 ---
 
 ![dexter]({{ site.url }}{{ page.picture }}){: .right-image }

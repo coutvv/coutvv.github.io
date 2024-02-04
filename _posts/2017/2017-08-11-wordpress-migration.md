@@ -5,6 +5,7 @@ date:   2017-08-11 10:21:13 +0300
 categories: lifelog
 preview: "Сей блог переезжает на бесплатный статический хостинг Github Pages"
 postPicture: /resources/posts/wordpress_migration.jpg
+secret: true
 ---
 
 ![replace fundamentals code]({{ site.url }}{{ page.postPicture }}){: .center-image }

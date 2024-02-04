@@ -7,6 +7,7 @@ preview: "TRAHIT SUA QUEMQUE VOLUPTAS! Скоро Java 9 релизят, а Я �
 Поэтому в этом посте попытаюсь с ними разобраться.
 "
 picture: /resources/posts/java8lambdas.jpg
+secret: true
 ---
 ![]({{ site.url }}{{ page.picture }}){: .right-image }
 

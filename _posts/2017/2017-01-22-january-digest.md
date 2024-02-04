@@ -10,6 +10,7 @@ preview: "Был занят и ленив, чтобы накатать дайд�
 По крайней мере пока...
 "
 picture: /resources/posts/january2017.jpg
+secret: true
 ---
 ![]({{ site.url }}{{ page.picture }}){: .right-image }
 

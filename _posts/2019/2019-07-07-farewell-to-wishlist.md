@@ -5,6 +5,7 @@ date:       2019-07-07 00:00:00 +0300
 categories: lifelog
 preview:    "Oracle certification, speech at a conference, marathon, iwasava path, the 100 challenge, korean, android dev..."
 picture: /images/2019/07/e_is_pain_o.jpg
+secret: true
 ---
 <div class="full-container">
     <img src="/images/2019/07/e_is_pain_o.jpg" alt="I am Mr Meesicks!" class="post-top-page">

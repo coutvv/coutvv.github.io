@@ -4,6 +4,7 @@ title:  "Translation of Ideal OS Part 01"
 date:   2017-08-26 05:51:13 +0300
 categories: articles
 preview: "Первая часть моего перевода статьи Ideal OS: Rebooting the Desktop Operating System Experience"
+secret: true
 ---
 <style type="text/css">
 	.header-pic {

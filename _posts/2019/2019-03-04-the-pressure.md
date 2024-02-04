@@ -5,6 +5,7 @@ date:       2019-03-03 20:00:00 +0300
 categories: lifelog
 preview:    "Stoicism, betray the traitor, oblivion in games, orthodox nutrition, agreement do not hurry, environment of laziness"
 picture: /images/2019/winter.jpg
+secret: true
 ---
 <div class="full-container">
     <img src="/images/2019/winter.jpg" alt="pic" class="post-top-page">

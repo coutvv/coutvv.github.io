@@ -5,6 +5,7 @@ date:   2017-07-27 13:21:13 +0300
 categories: lifelog
 preview: "Прямо таки вымучиваю сей текст из себя. Досада от одной неудачи стопорит общее движение вперёд. А стоит быть попрофессиональнее."
 insidePicture: /resources/july_digest.png
+secret: true
 ---
 
 ![replace fundamentals code]({{ site.url }}{{ page.insidePicture }}){: .center-image }

@@ -5,6 +5,7 @@ date:       2018-02-11 22:00:23 +0300
 categories: lifelog
 preview:    "The most important, new and interesting things this week. 
 <u>The reiteration of the last one? And English audiotion</u>"
+secret: true
 ---
 
 This series of posts is replaced for my monthly digest and if it will be continued it’s also replace my results in planning desks in trello. And like improvement I can move the whole structure from there to here! And insert the link of the post there! Very nice. If it’ll work…
