@@ -8,17 +8,17 @@ blog: false
 yuno: true
 ---
 
-<h1 class="post-title"> Hello, World! </h1>
+<h1 class="post-title">Hello World!</h1>
 
-I am an calm, modest and a little enlightenment Software Developer who lives in Kazan, Russian Federation. I code for Java Platform and web(js/html/css/obsolescent_frameworks). This is a spot where I post my boring, crazy and stupid ideas and things, like this: 
+My name is Roman.
+I have been involved in development with Java, Kotlin, and other technologies for over 10 years.
+Also, I enjoy playing real-time strategy (RTS) video games.
 
-- VKLiker, bot who like any kind of post in VK feed
-- Vergil System – a bot guy, who get me from the depression hell
-- Tetris Competition – how fast I can code the famous time killer
-- Decimal Time – my shots to turn to french revolutionary time system
+Here I share my experience in software development, architecture design,
+soft skills and others.
 
-That's it.
+My open-source projects:
+- [Xit Plugin](https://plugins.jetbrains.com/plugin/23646-xit-support)
 
-And sometimes I will be post about my hobby like playing Guitar, cycling, archery. 
+Glad to see any feedback
 
-Also I just learn English and if you have found any error please let me know via twitter or email!
