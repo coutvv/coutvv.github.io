@@ -8,17 +8,25 @@ blog: false
 yuno: true
 ---
 
-<h1 class="post-title">Hello World!</h1>
+# Hello World!
 
-My name is Roman.
-I have been involved in development with Java, Kotlin, and other technologies for over 10 years.
-Also, I enjoy playing real-time strategy (RTS) video games.
+My name is **Roman**.
+I have been involved in development with JVM technologies for over 10 years.  
+I like Linux, Kotlin, IntelliJ IDEA, Vim and simple tools.
+I adhere to the philosophy of the UNIX way.
 
-Here I share my experience in software development, architecture design,
-soft skills and others.
+Here I write about next topics:
+- Software Development 
+- Architecture Design
+- Tips and Tricks for productivity
+- soft skills
+
+Also, I write little notes about development in
+my telegram channel: [dev highlights](https://t.me/devhighl).
 
 My open-source projects:
-- [Xit Plugin](https://plugins.jetbrains.com/plugin/23646-xit-support)
+- [Xit Plugin](https://plugins.jetbrains.com/plugin/23646-xit-support) - Intellij IDEA
+plugin for highlighting [\[x\]it](https://xit.jotaen.net) files.
 
-Glad to see any feedback
+Glad to see any feedback!
 
