@@ -16,7 +16,7 @@ yuno: true
 My name is **Roman**.
 I have been involved in development with JVM technologies for over {{experience}} years.  
 I like Linux, Kotlin, IntelliJ IDEA, Vim and simplicity.
-I follow the philosophy of the UNIX way.
+I follow the [UNIX philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
 
 Here I write about next topics (in English):
 - Software Development 
