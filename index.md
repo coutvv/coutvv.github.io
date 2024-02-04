@@ -7,22 +7,25 @@ title: Roman Lomovtsev
 blog: false
 yuno: true
 ---
+{%assign currentYear = "now" | date: "%Y" %}
+{%assign experience = currentYear | minus: 2013 %}
+
 
 # Hello World!
 
 My name is **Roman**.
-I have been involved in development with JVM technologies for over 10 years.  
-I like Linux, Kotlin, IntelliJ IDEA, Vim and simple tools.
-I adhere to the philosophy of the UNIX way.
+I have been involved in development with JVM technologies for over {{experience}} years.  
+I like Linux, Kotlin, IntelliJ IDEA, Vim and simplicity.
+I follow the philosophy of the UNIX way.
 
-Here I write about next topics:
+Here I write about next topics (in English):
 - Software Development 
 - Architecture Design
 - Tips and Tricks for productivity
-- soft skills
+- Soft skills
 
-Also, I write little notes about development in
-my telegram channel: [dev highlights](https://t.me/devhighl).
+Also, I write brief notes about my findings in Russian on
+my Telegram channel: [dev highlights](https://t.me/devhighl).
 
 My open-source projects:
 - [Xit Plugin](https://plugins.jetbrains.com/plugin/23646-xit-support) - Intellij IDEA
