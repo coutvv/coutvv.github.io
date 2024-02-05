@@ -32,6 +32,7 @@ paginate_path: "/blog/page:num"
 plugins:
   - jekyll-feed
   - jekyll-paginate
+timezone: Europe/Moscow
 
 
 # Exclude from processing.
