@@ -13,18 +13,17 @@ yuno: true
 
 # Hello World!
 
-My name is **Roman**.
-I have been involved in development with JVM technologies for over {{experience}} years.  
-I like Linux, Kotlin, IntelliJ IDEA, Vim and simplicity.
-I follow the [UNIX philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
+Hi, I am **Roman**.
+I have been involved in software development for over {{experience}} years.  
+I like Linux, Kotlin, IntelliJ IDEA, Vim and following the 
+[UNIX philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
 
-Here I write about next topics (in English):
-- Software Development 
-- Architecture Design
-- Tips and Tricks for productivity
+Here I write about next topics:
+- Software Architecture Design
+- Tips and Tricks for Development
 - Soft skills
 
-Also, I write brief notes about my findings in Russian on
+Also, I write brief notes about my findings (in Russian) on
 my Telegram channel: [dev highlights](https://t.me/devhighl).
 
 My open-source projects:
