@@ -40,6 +40,10 @@ ul, ol, dl, figure,
   margin-bottom: calc($spacing-unit / 3);
 }
 
+.stupid {
+    margin-bottom: calc(#{$spacing-unit} / 3)
+}
+
 /**
  * `main` element
  */
