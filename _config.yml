@@ -33,6 +33,8 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 timezone: Europe/Moscow
+sass:
+  quiet_deps: true # TODO: fix it when done - https://github.com/jekyll/minima/issues/815
 
 
 # Exclude from processing.
