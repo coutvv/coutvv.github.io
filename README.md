@@ -2,8 +2,6 @@
 
 This is my blog: [lomovtsev.com](http://coutvv.github.io)
 
-Powered by jekyll
-
 ## Installation
 
 Need to be installed:
