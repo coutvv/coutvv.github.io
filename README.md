@@ -18,3 +18,9 @@ Run:
 ```bash
 bundle exec jekyll serve
 ```
+
+For auto reload use option `livereload`:
+
+```bash
+ bundle exec jekyll serve --livereload
+```
