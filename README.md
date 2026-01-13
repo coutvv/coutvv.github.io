@@ -1,4 +1,4 @@
-<img src="http://coutvv.github.io/favicon.ico" width="32px" height="32px"  alt="logo"/>
+<img src="https://coutvv.github.io/favicon.ico" width="32px" height="32px"  alt="logo"/>
 
 This is my blog: [lomovtsev.com](http://coutvv.github.io)
 
