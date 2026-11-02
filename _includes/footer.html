@@ -32,7 +32,38 @@
     }
 </style>
 {% if page.yuno %}
-  <img src="/resources/about/yuno_dark_correct_2.png" class="center-image yuno">
+  <img src="/resources/about/yuno-878.webp" id="yuno" class="center-image yuno">
+  <script> // оптимизация загрузки тяжёлой картинки на главной
+        window.addEventListener('load', () => {
+            const target = document.getElementById('yuno');
+            let activeStage = 0;
+    
+            function switchImage(src, stage) {
+                activeStage = stage;
+    
+                const preload = new Image();
+                preload.src = src;
+    
+                preload.decode()
+                    .then(() => {
+                        if (activeStage === stage) {
+                            target.src = src;
+                        }
+                    })
+                    .catch(() => {
+                        console.error(`Не удалось загрузить ${src}`);
+                    });
+            }
+    
+            setTimeout(() => {
+                switchImage('/resources/about/yuno_dark_correct_2.png', 1);
+            }, 5000);
+    
+            setTimeout(() => {
+                switchImage('/resources/about/yuno-large.png', 2);
+            }, 10000);
+        });
+  </script>
 {% endif %}
 
 <footer class="site-footer site-footer-mod ">
